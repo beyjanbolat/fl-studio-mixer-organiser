@@ -77,10 +77,6 @@ test_categorise.py   # pytest tests
 
 Working and tested as a standalone function. It does not run inside FL Studio yet. Next: a thin adapter that reads channel names through the FL Studio Python scripting API (https://il-group.github.io/FL-Studio-API-Stubs) and writes the results back.
 
-## Prior art
-
-AutoRoute Sync is an existing FL Studio tool that routes new channels and copies their name and colour. This project is a separate effort aimed at organising existing projects.
-
 ## License
 
 MIT
