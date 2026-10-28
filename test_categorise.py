@@ -4,10 +4,17 @@ import pytest
 #     assert categorise("ThaiKick_01_SP") == ("Kick", "Drums")
 
 @pytest.mark.parametrize("raw, expected", [
-    ("Serum", ("Serum", "Synth")),
-    ("Serum #2", ("Serum", "Synth")),
-    ("Kontakt 7", ("Kontakt", "Synth")),
-    ("PL_TS_Snare_One", ("Snare", "Drums"))
+("Track 1(consolidated)", ('Track 1(consolidated)', 'unknown')),
+("Serum", ('Serum', 'Synth')),
+("PL_TS_Snare_One", ('Snare', 'Drums')),
+("CleanHat_01_SP", ('Hat', 'Drums')),
+("DreamyBrazilianHat", ('Hat', 'Drums')),
+("LightCrispyRide_01_SP", ('Ride', 'Drums')),
+("ThaiKick_01_SP", ('Kick', 'Drums')),
+("HAT LOOP 91 BPM", ('Hat', 'Drums')),
+("Kontakt 7", ('Kontakt', 'Synth')),
+("Serum #2", ('Serum', 'Synth')),
+("Analog Lab V", ('Analog Lab', 'Synth')),
 ])
 def test_names(raw, expected):
     assert categorise(raw) == expected

@@ -1,5 +1,4 @@
 
-
 categories = {
     "Drums": ["Kick", "Hat", "Snare", "Rim", "Ride", "Cymbal"],
     "Synth": ["Kontakt", "Serum", "Analog Lab"],
