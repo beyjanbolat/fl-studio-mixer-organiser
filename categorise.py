@@ -1,6 +1,6 @@
 
 categories = {
-    "Drums": ["Kick", "Kik", "Snare", "Snr", "Clap", "Hat", "Rim", "Perc",
+    "Drums": ["Kick", "Kik", "Snare", "Snr", "Clap", "Hihat", "OpenHat", "Hat", "Rim", "Perc",
               "Shaker", "Tamb", "Conga", "Bongo", "Cowbell", "Crash",
               "Cymbal", "Ride", "Snap", "Fill", "Drum"],
     "Vocals": ["Vox", "Vocal", "Chant", "Chop", "Choir", "Adlib", "Ad-lib",

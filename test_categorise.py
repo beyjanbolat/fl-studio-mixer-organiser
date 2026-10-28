@@ -17,7 +17,10 @@ import pytest
 ("Analog Lab V", ('Analog Lab', 'Synth')),
 ("vox lead 2", ('Vox', 'Vocals')),
 ('Riser', ('Riser', 'FX')),
-('Chat', ('Chat', 'unknown'))
+('Chat', ('Chat', 'unknown')),
+('Hihat 1', ('Hihat', 'Drums')),
+('Hihat 08D', ('Hihat', 'Drums')),
+('OpenHat', ('OpenHat', 'Drums'))
 ])
 def test_names(raw, expected):
     assert categorise(raw) == expected
