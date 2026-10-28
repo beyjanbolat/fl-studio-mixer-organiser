@@ -15,6 +15,9 @@ import pytest
 ("Kontakt 7", ('Kontakt', 'Synth')),
 ("Serum #2", ('Serum', 'Synth')),
 ("Analog Lab V", ('Analog Lab', 'Synth')),
+("vox lead 2", ('Vox', 'Vocals')),
+('Riser', ('Riser', 'FX')),
+('Chat', ('Chat', 'unknown'))
 ])
 def test_names(raw, expected):
     assert categorise(raw) == expected
