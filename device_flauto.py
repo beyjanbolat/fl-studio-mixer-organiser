@@ -1,5 +1,5 @@
 # name=FL Mixer Organiser
-# url= https://github.com/beyjanbolat/fl-mixer-organiser
+# url= https://github.com/beyjanbolat/fl-studio-mixer-organiser
 
 import channels
 import mixer
