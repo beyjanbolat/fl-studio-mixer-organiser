@@ -1,7 +1,6 @@
 # FL Mixer Organiser
 
 ![Python 3.13](https://img.shields.io/badge/python-3.13-blue)
-![FL Studio Python API](https://img.shields.io/badge/FL_Studio-Python_API-orange)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 Clean up a messy FL Studio mixer in one step. The script reads the channel names, then names, colour-codes and routes the mixer tracks: `FSS_S2MHEV5_Kick_Power` becomes a red `Kick` track on its own insert.
