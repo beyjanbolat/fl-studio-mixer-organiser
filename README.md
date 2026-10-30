@@ -1,7 +1,7 @@
 # FL Mixer Organiser
 
 ![Python 3.13](https://img.shields.io/badge/python-3.13-blue)
-![FL Studio scripting API](https://img.shields.io/badge/FL%20Studio-Python%20API-orange)
+![FL Studio Python API](https://img.shields.io/badge/FL_Studio-Python_API-orange)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 Clean up a messy FL Studio mixer in one step. The script reads the channel names, then names, colour-codes and routes the mixer tracks: `FSS_S2MHEV5_Kick_Power` becomes a red `Kick` track on its own insert.
@@ -65,7 +65,7 @@ fl-studio-mixer-organiser/
 
 ## Installation
 
-1. Download the zip from the [latest release](https://github.com/beyjanbolat/fl-studio-mixer-organiser/releases/latest) and copy the two files inside it (`device_flauto.py` and `categorise.py`) into a new folder under `Documents\Image-Line\FL Studio\Settings\Hardware\` (on some machines Documents is inside OneDrive).
+1. Download the zip from the [latest release](https://github.com/beyjanbolat/fl-studio-mixer-organiser/releases/latest) and copy the two files inside it (`device_flauto.py` and `categorise.py`) into a new folder under `Documents\Image-Line\FL Studio\Settings\Hardware\`.
 2. Restart FL Studio.
 3. In **Options > MIDI settings**, pick a MIDI input and set its **Controller type** to **FL Mixer Organiser**.
 
